@@ -1,0 +1,93 @@
+-- 09-09-2026
+-- inner join e view
+
+use bd_livro_0302;
+
+-- join
+-- lista isbn, titulo, editora
+select L.isbn, L.titulo, E.editora from
+tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora;
+
+-- produto cartesiano - algebra relacional
+select L.isbn, L.titulo, E.editora from
+tb_livro L inner join tb_editora E;
+
+-- join
+-- isbn, titulo, editora e genero
+
+select isbn, titulo, editora, genero
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora
+inner join tb_genero G
+on L.cd_genero = G.cd_genero;
+
+-- Exercicios
+
+-- 1	Lista titulo, editora quando o preco maior que R$200,00
+select isbn, titulo, editora, preco
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora
+where L.preco > 200;
+
+-- 2	Lista titulo, gênero quando o preco entre R$200,00 e R$300,00
+
+select L.isbn, L.titulo, G.genero, L.preco
+from tb_livro L inner join tb_genero G
+on L.cd_genero = G.cd_genero
+where L.preco >= 200 and L.preco <= 300;
+-- poderia usar between(200 and 300)
+
+-- 3	Lista  titulo, editora e gênero quando cd_editora 1, 2 e 3
+select L.isbn,L.titulo, E.editora, G.genero, L.cd_editora
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora
+inner join tb_genero G
+on L.cd_genero = G.cd_genero
+where L.cd_editora in(1, 2, 3);
+
+
+-- 4	lista titulo, editora, preco e preco com mais 20%
+select L.isbn, L.titulo, E.editora, L.preco, L.preco * 1.2 as vinte
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora;
+
+-- view
+
+create view vw01 as 
+select L.isbn, L.titulo, E.editora, L.preco, L.preco * 1.2 as vinte
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora;
+
+select* from vw01;
+
+-- Exercicios
+
+-- 1	Criar uma View – liste isbn, titulo
+create view vwEx1 as
+select isbn, titulo from tb_livro;
+select * from vwEx1;
+
+-- 2	Criar uma View – list isbn, titulo, preco, preco com 10%
+create view vwEx2 as
+select isbn, titulo, preco, preco* 1.1 as dez
+from tb_livro;
+
+select* from vwEX2;
+
+-- 3	Criar uma View – list isbn, titulo e editora
+create view vwEX3 as 
+select isbn, titulo, editora
+from tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora;
+
+select* from vwEX3;
+
+-- 4	Criar uma View – list isbn, titulo e gênero por ordem de gênero.
+
+create view vwEX04 as 
+select isbn, titulo, genero
+from tb_livro L inner join tb_genero G
+on L.cd_genero = G.cd_genero; 
+
+select * from vwEX04 order by genero;
