@@ -1,0 +1,151 @@
+-- aula 16-09-2026
+-- revisao inner join
+-- outer join
+-- manipulação de data
+-- calculos
+
+-- outer join
+use bd_livro_0302;
+
+-- inner join
+select L.titulo, E.editora from
+tb_livro L inner join tb_editora E
+on L.cd_editora = E.cd_editora;
+select * from tb_livro;
+-- outer join
+select E.editora, L.titulo from
+tb_livro L right outer join tb_editora E
+on L.cd_editora = E.cd_editora
+where L.titulo is null;
+
+-- Lista os generos que não tem na biblioteca
+-- inner join
+select G.genero, L.titulo from
+tb_livro L inner join tb_genero G
+on L.cd_genero = G.cd_genero;
+
+-- outer join
+select G.genero, L.titulo from
+tb_genero G left outer join tb_livro L
+on L.cd_genero = G.cd_genero
+where L.titulo is null;
+
+-- ------------------------------------------------------------------------------------
+-- bd rh
+use bd_rh_0302;
+select * from tb_funcionario;
+
+-- manipulando o bd_rh_denovo
+insert into tb_setor (cd_setor, setor) 
+values 
+(1, 'Enfermaria'),
+(2, 'Administracao'),
+(3, 'Informatica'),
+(4, 'Engenharia'),
+(5, 'Juridico'),
+(6, 'Logistica'),
+(7, 'Presidencia');
+
+insert into tb_cargo 
+(cd_cargo, cargo) 
+values 
+(1, 'Enfermeiro(a)'),
+(2, 'Administrador(a)') ,
+(3, 'Analista') ,
+(4, 'Engenheiro(a)') ,
+(5, 'Advogado(a)') ,
+(6, 'Gerente') ,
+(7, 'Executivo(a)') ;
+
+insert into tb_funcionario  
+(matricula, funcionario,  dt_nascimento, cd_setor, cd_cargo, salario)
+Values  
+(1,'Ana Clara', '1977-07-05',  5, 1, 3000),
+(2,'Patricia Azevedo', '1944-07-04', 1, 1, 4000),
+(3,'Jose Maria', '1971-05-10', 3, 1, 6000),
+(4,'Sonia Abrantes', '1979-05-29',  4, 1, 7000), 
+(5,'Valdir Reinaldo', '1960-09-22',  2, 2, 16000), 
+(6,'Jose Alberto', '1955-01-13',  2, 2, 15000);
+
+-- Exercicios
+
+-- 1	Lista os cargos que não tem funcionário 
+-- outer join
+select C.cargo, F.funcionario from
+tb_funcionario F right outer join tb_cargo C
+on F.cd_cargo = C.cd_cargo
+where F.funcionario is null;
+
+
+-- 2	Lista o setor que não tem funcionário
+
+-- inner join
+select S.setor, F.funcionario from
+tb_funcionario F inner join tb_setor S
+on F.cd_setor = S.cd_setor;
+
+-- outer join
+select S.setor, F.funcionario from
+tb_funcionario F right outer join tb_setor S
+on F.cd_setor = S.cd_setor
+where F.funcionario is null;
+
+-- -----------------------------------------------------------------------------
+-- bd_pedido
+use bd_pedido_0302;
+select * from tb_pedido;
+
+-- manipulação de data
+-- day, month and year
+select nr_pedido, valor_pedido,dt_pedido,
+day(dt_pedido) as dia,
+month(dt_pedido) as mes,
+year(dt_pedido) as ano,
+curdate() as data_abreviada,
+now() as data_detalhada,
+datediff(Curdate(), dt_pedido) as dias_em_atraso
+from tb_pedido;
+
+-- -----------------------------------------------------------------
+
+-- Expressoes
+use bd_pedido_0302;
+select * from tb_pedido;
+
+-- atualizar a comissao em 10%
+update tb_pedido
+set comissao = valor_pedido * 0.1
+where nr_pedido <20;
+select * from tb_pedido;
+
+select comissao,
+ comissao+100, 
+ comissao* 0.2,
+comissao * 0.5 
+from tb_pedido;
+
+select comissao,
+ comissao+100 as '+100', 
+ comissao* 0.2 as '20%',
+comissao * 0.5 as '50%'
+from tb_pedido;
+
+-- somar todas as vendas
+select sum(valor_pedido) media from tb_pedido;
+
+-- quantos registros tem
+select count(*) qtd_registro from tb_pedido;
+
+-- lista o preco do carro mais caro
+select max(valor_pedido) mais_alto from tb_pedido;
+
+-- lista o preco do carro mais barato
+select min(valor_pedido) mais_baixo from tb_pedido;
+
+
+
+
+
+
+
+
