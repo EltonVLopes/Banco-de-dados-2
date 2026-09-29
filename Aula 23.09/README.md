@@ -15,5 +15,3 @@ Foram realizados exercícios práticos de revisão envolvendo criação, altera�
 - 🗄️ SQL
 - 🐬 MySQL Workbench
 - 🐙 GitHub
-```
-
