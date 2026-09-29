@@ -59,7 +59,7 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 
 Elton Eduardo Viana Lopes
 
-🎓 Engenharia de Software — CEUB
+🎓 Engenharia de Software — CEUB <br>
 📖 Disciplina: Banco de Dados 2
 
 ---
