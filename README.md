@@ -44,18 +44,17 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 
 ## 📈 Evolução
 
-🗄️ SQL Básico
-↓
-💾 Backup, Restore e Restrições
-↓
-🔗 INNER JOIN e VIEW
-↓
-🔄 OUTER JOIN, Datas e Cálculos
-↓
-📝 Revisão de SQL e Manipulação de Dados
-↓
+🗄️ SQL Básico <br>
+↓ <br>
+💾 Backup, Restore e Restrições <br>
+↓ <br>
+🔗 INNER JOIN e VIEW <br>
+↓ <br>
+🔄 OUTER JOIN, Datas e Cálculos <br>
+↓ <br>
+📝 Revisão de SQL e Manipulação de Dados <br>
+↓ <br>
 🔜 Em andamento...
-
 ## 👨‍💻 Autor
 
 Elton Eduardo Viana Lopes
