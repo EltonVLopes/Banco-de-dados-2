@@ -10,22 +10,24 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 
 📦 Banco-de-dados-2
 
-- 📂 [Aula 26.08](./Aula%2026.08)
-- 📂 [Aula 02.09](./Aula%2002.09)
-- 📂 [Aula 09.09](./Aula%2009.09)
-- 📂 [Aula 16.09](./Aula%2016.09)
-- 📂 [Aula 23.09](./Aula%2023.09)
+- 📂 [Aula 26.08](./Aula%2026.08/)
+- 📂 [Aula 02.09](./Aula%2002.09/)
+- 📂 [Aula 09.09](./Aula%2009.09/)
+- 📂 [Aula 16.09](./Aula%2016.09/)
+- 📂 [Aula 23.09](./Aula%2023.09/)
+- 📂 [Aula 07.10](./Aula%2007.10/)
 - 📄 README.md
 
 ## 📅 Aulas e conteúdos
 
 | Aula | Conteúdo |
 |---|---|
-| [26/08](./Aula%2026.08) | 🗄️ Comandos básicos de SQL, criação e utilização de banco de dados, criação de tabelas, relacionamentos e população do banco de dados. Também foram realizados exercícios para praticar os comandos aprendidos. |
-| [02/09](./Aula%2002.09) | 💾 Backup e restore de banco de dados, comandos de restrições em SQL e exercícios para praticar os conteúdos apresentados. |
-| [09/09](./Aula%2009.09) | 🔗 INNER JOIN e VIEW, seus respectivos comandos e exercícios práticos para reforçar os conteúdos aprendidos. |
-| [16/09](./Aula%2016.09) | 🔄 Revisão de INNER JOIN, introdução ao OUTER JOIN, manipulação de datas, cálculos em SQL e exercícios de fixação. |
-| [23/09](./Aula%2023.09) | 📝 Revisão dos principais conceitos e comandos de SQL, criação e alteração de tabelas, chaves e relacionamentos, manipulação de dados, INNER JOIN e cálculos em SQL. |
+| [26/08](./Aula%2026.08/) | 🗄️ Comandos básicos de SQL, criação e utilização de banco de dados, criação de tabelas, relacionamentos e população do banco de dados. Também foram realizados exercícios para praticar os comandos aprendidos. |
+| [02/09](./Aula%2002.09/) | 💾 Backup e restore de banco de dados, comandos de restrições em SQL e exercícios para praticar os conteúdos apresentados. |
+| [09/09](./Aula%2009.09/) | 🔗 INNER JOIN e VIEW, seus respectivos comandos e exercícios práticos para reforçar os conteúdos aprendidos. |
+| [16/09](./Aula%2016.09/) | 🔄 Revisão de INNER JOIN, introdução ao OUTER JOIN, manipulação de datas, cálculos em SQL e exercícios de fixação. |
+| [23/09](./Aula%2023.09/) | 📝 Revisão dos principais conceitos e comandos de SQL, criação e alteração de tabelas, chaves e relacionamentos, manipulação de dados, INNER JOIN e cálculos em SQL. |
+| [07/10](./Aula%2007.10/) | 📊 Revisão aprofundada de INNER JOIN e OUTER JOIN, VIEW, manipulação de datas, cálculos matemáticos e funções de agregação, com exercícios práticos. |
 
 ## 🛠️ Ferramentas
 
@@ -44,25 +46,27 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 
 ## 📈 Evolução
 
-🗄️ SQL Básico <br>
-↓ <br>
-💾 Backup, Restore e Restrições <br>
-↓ <br>
-🔗 INNER JOIN e VIEW <br>
-↓ <br>
-🔄 OUTER JOIN, Datas e Cálculos <br>
-↓ <br>
-📝 Revisão de SQL e Manipulação de Dados <br>
-↓ <br>
+🗄️ SQL Básico  
+↓  
+💾 Backup, Restore e Restrições  
+↓  
+🔗 INNER JOIN e VIEW  
+↓  
+🔄 OUTER JOIN, Datas e Cálculos  
+↓  
+📝 Revisão de SQL e Manipulação de Dados  
+↓  
+📊 Aprofundamento em JOINs, Datas e Funções de Agregação  
+↓  
 🔜 Em andamento...
+
 ## 👨‍💻 Autor
 
 Elton Eduardo Viana Lopes
 
-🎓 Engenharia de Software — CEUB <br>
+🎓 Engenharia de Software — CEUB  
 📖 Disciplina: Banco de Dados 2
 
 ---
 
 ⭐ Repositório desenvolvido para fins acadêmicos.
-
