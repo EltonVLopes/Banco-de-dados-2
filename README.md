@@ -16,6 +16,9 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 - 📂 [Aula 16.09](./Aula%2016.09/)
 - 📂 [Aula 23.09](./Aula%2023.09/)
 - 📂 [Aula 07.10](./Aula%2007.10/)
+- 📂 [Aula 14.10](./Aula%2014.10/)
+- 📂 [Aula 21.10](./Aula%2021.10/)
+- 📂 [Aula 28.10](./Aula%2028.10/)
 - 📄 README.md
 
 ## 📅 Aulas e conteúdos
@@ -28,6 +31,9 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 | [16/09](./Aula%2016.09/) | 🔄 Revisão de INNER JOIN, introdução ao OUTER JOIN, manipulação de datas, cálculos em SQL e exercícios de fixação. |
 | [23/09](./Aula%2023.09/) | 📝 Revisão dos principais conceitos e comandos de SQL, criação e alteração de tabelas, chaves e relacionamentos, manipulação de dados, INNER JOIN e cálculos em SQL. |
 | [07/10](./Aula%2007.10/) | 📊 Revisão aprofundada de INNER JOIN e OUTER JOIN, VIEW, manipulação de datas, cálculos matemáticos e funções de agregação, com exercícios práticos. |
+| [14/10](./Aula%2014.10/) | 📈 Consultas de agregação, funções como AVG, SUM e COUNT, GROUP BY, ORDER BY, transações em SQL e subconsultas (subqueries). |
+| [21/10](./Aula%2021.10/) | 🔐 Revisão de agregações, transações e subconsultas, além de comandos DCL para criação de usuários e gerenciamento de permissões com GRANT, REVOKE e SHOW GRANTS. |
+| [28/10](./Aula%2028.10/) | ⚙️ Revisão de comandos DCL, criação e utilização de índices (INDEX) para otimização de consultas e Stored Procedures (procedimentos armazenados). |
 
 ## 🛠️ Ferramentas
 
@@ -56,7 +62,11 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 ↓  
 📝 Revisão de SQL e Manipulação de Dados  
 ↓  
-📊 Aprofundamento em JOINs, Datas e Funções de Agregação  
+📊 Agregações, Transações e Subqueries  
+↓  
+🔐 DCL e Gerenciamento de Permissões  
+↓  
+⚙️ Índices e Stored Procedures  
 ↓  
 🔜 Em andamento...
 
