@@ -19,6 +19,7 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 - 📂 [Aula 14.10](./Aula%2014.10/)
 - 📂 [Aula 21.10](./Aula%2021.10/)
 - 📂 [Aula 28.10](./Aula%2028.10/)
+- 📂 [Aula 04.11](./Aula%2004.11/)
 - 📄 README.md
 
 ## 📅 Aulas e conteúdos
@@ -34,6 +35,7 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 | [14/10](./Aula%2014.10/) | 📈 Consultas de agregação, funções como AVG, SUM e COUNT, GROUP BY, ORDER BY, transações em SQL e subconsultas (subqueries). |
 | [21/10](./Aula%2021.10/) | 🔐 Revisão de agregações, transações e subconsultas, além de comandos DCL para criação de usuários e gerenciamento de permissões com GRANT, REVOKE e SHOW GRANTS. |
 | [28/10](./Aula%2028.10/) | ⚙️ Revisão de comandos DCL, criação e utilização de índices (INDEX) para otimização de consultas e Stored Procedures (procedimentos armazenados). |
+| [04/11](./Aula%2004.11/) | 📊 Revisão e aprofundamento de índices (INDEX) e Stored Procedures, análise de desempenho de consultas e desenvolvimento de procedimentos armazenados com e sem parâmetros. |
 
 ## 🛠️ Ferramentas
 
@@ -67,6 +69,8 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 🔐 DCL e Gerenciamento de Permissões  
 ↓  
 ⚙️ Índices e Stored Procedures  
+↓  
+📈 Aprofundamento em Índices e Stored Procedures  
 ↓  
 🔜 Em andamento...
 
