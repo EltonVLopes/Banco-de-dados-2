@@ -2,7 +2,7 @@
 
 Repositório destinado ao armazenamento das atividades e conteúdos desenvolvidos na disciplina de Banco de Dados 2, organizados de acordo com a data de cada aula.
 
-O repositório tem como objetivo registrar a evolução dos conteúdos estudados e dos exercícios realizados ao longo da disciplina.
+O repositório tem como objetivo registrar os conteúdos estudados e os exercícios realizados ao longo da disciplina.
 
 ## 📚 Sobre o repositório
 
@@ -20,6 +20,7 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 - 📂 [Aula 21.10](./Aula%2021.10/)
 - 📂 [Aula 28.10](./Aula%2028.10/)
 - 📂 [Aula 04.11](./Aula%2004.11/)
+- 📂 [Aula 11.11](./Aula%2011.11/)
 - 📄 README.md
 
 ## 📅 Aulas e conteúdos
@@ -36,6 +37,7 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 | [21/10](./Aula%2021.10/) | 🔐 Revisão de agregações, transações e subconsultas, além de comandos DCL para criação de usuários e gerenciamento de permissões com GRANT, REVOKE e SHOW GRANTS. |
 | [28/10](./Aula%2028.10/) | ⚙️ Revisão de comandos DCL, criação e utilização de índices (INDEX) para otimização de consultas e Stored Procedures (procedimentos armazenados). |
 | [04/11](./Aula%2004.11/) | 📊 Revisão e aprofundamento de índices (INDEX) e Stored Procedures, análise de desempenho de consultas e desenvolvimento de procedimentos armazenados com e sem parâmetros. |
+| [11/11](./Aula%2011.11/) | 🔄 Revisão e aprofundamento de Stored Procedures, criação de procedimentos com parâmetros, consultas utilizando INNER JOIN, inclusão e alteração de registros e identificação automática da próxima chave primária. |
 
 ## 🛠️ Ferramentas
 
@@ -71,6 +73,8 @@ As atividades estão organizadas em pastas de acordo com a data das aulas:
 ⚙️ Índices e Stored Procedures  
 ↓  
 📈 Aprofundamento em Índices e Stored Procedures  
+↓  
+🔄 Revisão e Aprofundamento de Stored Procedures  
 ↓  
 🔜 Em andamento...
 
